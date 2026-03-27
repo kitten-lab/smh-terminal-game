@@ -1,8 +1,9 @@
 # Silo Terminal Prolog
 
-An experimental terminal-based narrative prototype exploring memory, identity, and recursive thinking mechanics.
+/ an experimental terminal-based narrative prototype.
+/ identity, and recursive thinking mechanics.
 
-Built in Python as an early exploration of parser-based interaction, the game explores what it means to create the world from nothing but your own thoughts, even if you can't remember who it was you were.
+Built in Python as an early exploration of parser-based interaction, the "game" "explores" *what* it "means" to "create" the "world" from "nothing" but your own "thoughts".
 
 ## Running the prototype
 
