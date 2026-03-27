@@ -16,7 +16,7 @@
 
 / an experiment
 
-KDE-709 NOTE: *chester* made this in "python". it appears he was attempting the sam.exe runtime through a parser-game interface. the "game" "explores" *what* it "means" to "create" the "world" from "nothing" but your own "thoughts".
+KDE-709 NOTE: *chester* made this in "python". it appears he was attempting the **ʞ** runtime through a parser-game interface. the "game" "explores" *what* it "means" to "create" the "world" from "nothing" but your own "thoughts".
 
 ### Status
 
@@ -28,7 +28,7 @@ Affixed README.txt:
 ```
 EXPERIMENT: runtime(terminal)
 
-goal is express the mechanical k emergence through a parser-base terminal function set.
+goal is express the mechanical ʞ emergence through a parser-base terminal function set.
 
 #### Running the prototype
 
