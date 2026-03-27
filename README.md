@@ -16,7 +16,7 @@
 
 / an experiment
 
-`KDE` 709 >| *chester* made this in "python". it appears he was attempting the **ʞ** runtime through a parser-game interface. the "game" "explores" *what* it "means" to "create" the "world" from "nothing" but your own "thoughts".
+`KDE` 709 `>|` *chester* made this in "python". it appears he was attempting the **ʞ** runtime through a parser-game interface. the "game" "explores" *what* it "means" to "create" the "world" from "nothing" but your own "thoughts".
 
 ### Status
 
