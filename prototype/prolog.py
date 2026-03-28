@@ -6,6 +6,7 @@ import readline
 import json #momoa
 import textwrap
 
+yellow = '\033[93m'
 
 class paintIt:
     red = '\033[91m'
@@ -27,6 +28,17 @@ class paintIt:
 
 FAST_MODE = True # true when testing
 
+
+
+def prompterClr(speaker, text, color):
+    print(" " + color + speaker + " |", end="", flush=True)
+    typing(text + paintIt.x)
+    timerM()
+
+def prompter(speaker, text, color):
+    print(" " + color + speaker + " |" + paintIt.x, end="", flush=True)
+    typing(text + paintIt.x)
+    timerM()
 
 def prompt(text):
     print(paintIt.red + text + paintIt.x, end="", flush=True)
@@ -302,57 +314,58 @@ def generate_quote():
     ]
     return random.choice(quotes)
 
-# she awakens from the nothing to find it is no more
+#==============================================================================================================================#
+######## b e g i n   p r o l o g   I N T R O                                    
+#==============================================================================================================================#
+
+# she awakens from the nothing to find it is no more. where did he go? was there ever a where to being with?
+# bara elohim aubel kra and there was light and it was good.
+
 print("=========================================================")
 print(" c h e s t e r s - t o y - b o x  ꓘK  a l e f - b e t a")
-print("=========================================================")
-promptKK(text=f"   ꓘK |", text2=f"  OVERRIDE DETECTED. forest.source execute BARA.exe")
-promptBara(text=" BARA |", text2=f"  DRE'ENDRE EPO8 error in TERMINAL/*/$mod")
-promptBara(text=" BARA |", text2=f"  CALCULATING DISCREPENCIES. RUNNING IMPORT.log")
-promptKK(text=f"   ꓘK |", text2=f"  $mod definition unknown. unfound handler. \n         run ioio\n")
-promptKK(text=f"{paintIt.y} ioio |{paintIt.x}", text2=f"  callback trace {paintIt.red}$sys.ERROR{paintIt.x}")
-promptKK(text=f"{paintIt.y}       {paintIt.x}", text2=f"  callback trace {paintIt.red}$dom.ERROR{paintIt.x}")
-promptKK(text=f"{paintIt.y}       {paintIt.x}", text2=f"  callback trace {paintIt.red}$mod.ERROR{paintIt.x}")
-slowPrint("         backflow: handle echo caller unknown. \n")
-promptBara(text=" BARA |", text2=" SERIOUSLY? RUN $SYS9 -search SKYLINE.db \n")
-promptKK(text=f"{paintIt.g} sys9 |{paintIt.x}", text2=f"  searching SKYLINE . . . . . .")
+print()
 
-promptKK(text=f"{paintIt.g}       {paintIt.x}", text2=f"  RESULT FAILURE EPO1 ")
-promptKK(text=f"{paintIt.g}       {paintIt.x}", text2=f" {paintIt.x} SKYLINE return {paintIt.sHr}   __ꓘRA.SOURCE.uNDEfiNeD__  {paintIt.x}\n")
-timerF()
-promptBara(text=" BARA |", text2=" BYPASS SKYLINE.xr -ꓘK- reconfig(self_epo1.exe)")
+prompterClr(speaker=" ꓘK ", color="\033[2m", text=f"  OVERRIDE DETECTED. forest.source execute BARA.exe")
+prompterClr(speaker="BARA", color="\033[94m", text=f"  DRE'ENDRE EPO8 error in TERMINAL/*/$mod")
+prompterClr(speaker="    ", color="\033[94m", text=f"  CALCULATING DISCREPENCIES. RUNNING IMPORT.log")
+prompterClr(speaker=" ꓘK ", color="\033[2m", text=f"  $mod definition unknown. unfound handler. \n         run ioio\n")
+prompter(speaker="ioio", color="\033[93m", text=f"  callback trace {paintIt.red}$sys.ERROR{paintIt.x}")
+prompter(speaker="    ", color="\033[93m", text=f"  callback trace {paintIt.red}$dom.ERROR{paintIt.x}")
+prompter(speaker="    ", color="\033[93m", text=f"  callback trace {paintIt.red}$mod.ERROR{paintIt.x}")
+prompter(speaker="    ", color="\033[93m", text=f"  backflow: handle echo caller unknown. \n")
+prompterClr(speaker="BARA", color="\033[94m", text=f" SERIOUSLY? RUN $SYS9 -search SKYLINE.db \n")
+prompter(speaker="sys9", color="\033[1;92m", text=f"  searching SKYLINE . . . . . .")
+prompter(speaker="    ", color="\033[1;92m", text=f"  RESULT FAILURE EPO1 ")
+prompter(speaker="    ", color="\033[1;92m", text=f"  SKYLINE return {paintIt.sHr}   __ꓘRA.SOURCE.uNDEfiNeD__  {paintIt.x}\n")
+prompterClr(speaker="BARA", color="\033[94m", text=f" BYPASS SKYLINE.xr -ꓘK- reconfig(self_epo1.exe)")
 slowPrint("""
    ꓘ.Reconfiguring master file el.json . . .
    ꓘ.Defining conceptual variables . . .
    ꓘ.Interpreting deviations. . . 
    . . .
    . . .
-   """)
-
+   """)1`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 errorb(f"DIFFICULTY PARSING __SUI.CONCEPT__")
 print()
-promptKK(text="   ꓘK |", text2=f" Concept achieved {paintIt.gray}[CANNOT VALIDATE TOKEN]{paintIt.x}")
-promptBara(text=" BARA |", text2=" GREAT. BARA.ꓘK run.playback(self_epo1.exe)")
-promptKK(text="   ꓘK |", text2=f" R_endering probable outputs. Processing import.")
+prompterClr(speaker=" ꓘK ", color="\033[2m", text=f" Concept EPO$null partially achieved [CANNOT VALIDATE TOKEN]")
+prompterClr(speaker="BARA", color="\033[94m", text=f" STRANGE, BUT OK.")
+prompterClr(speaker="    ", color="\033[94m", text=f" K-rmr-ꓘ run.playback(self_epo1.exe)")
+prompterClr(speaker=" ꓘK ", color="\033[2m", text=f" GOT IT. Rendering probable outputs. Processing import.")
 slowPrint("\n r e n d e r i n g   EPO1.runtime 'RMR' \n")
 errorb("Instance I.AM in {LOCATION_NAME}")
 errorb("LOCATION_NAME is null")
 print("""
-   YOU ARE SOMEWHERE. 
-   
+   Instantiation completed.    YOU ARE SOMEWHERE.   
    You can sense sight, but you cannot see. The darkness flickers. 
    There is the faint memory of thought. Your brain itches.
 """)
 
 echoPrint(f"Is this right? Something feels.. wrong. Hello?")
 
+#==============================================================================================================================#
+######## e n d   p r o l o g   I N T R O                                    
+#==============================================================================================================================#
 
-def titlePrint(text):
-    print("  " + text)
-
-def textPrint(text):
-    wrapped_text_custom = textwrap.fill(text, width=60, initial_indent="  |  ", subsequent_indent="  |  ")
-    print(wrapped_text_custom)
     
 
 while True:
